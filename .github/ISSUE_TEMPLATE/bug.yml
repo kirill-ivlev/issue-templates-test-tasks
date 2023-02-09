@@ -1,5 +1,5 @@
 name: Bug
-description: Report a bug report
+description: Report a bug 
 title: "[BUG]: "
 labels: ["bug"]
 body:
@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Use this form if you'd like to report bug related to one of the 
-        tasks. (List of the tasks)[https://github.com/Microsoft/azure-pipelines-tasks/tree/master/Tasks]
+        tasks. [List of the tasks](https://github.com/Microsoft/azure-pipelines-tasks/tree/master/Tasks)
   - type: input
     id: task-name
     attributes:
