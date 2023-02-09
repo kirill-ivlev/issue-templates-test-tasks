@@ -1,5 +1,5 @@
 name: Bug
-desciprtion: Report a bug report
+description: Report a bug report
 title: "[BUG]: "
 labels: ["bug"]
 body:
