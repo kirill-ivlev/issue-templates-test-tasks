@@ -1,0 +1,15 @@
+name: Bug
+desciprtion: Report a bug report
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form if you'd like to report bug related to one of the 
+        tasks. (List of the tasks)[https://github.com/Microsoft/azure-pipelines-tasks/tree/master/Tasks]
+  - type: input
+    id: task-name
+    attributes:
+      label: Task name
+    
