@@ -49,6 +49,8 @@ body:
     attributes:
       label: Operation system
       placeholder: Windows 11, Ubuntu 20.04...
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |
@@ -60,6 +62,8 @@ body:
       description: |
         Please copy and paste any relevant log output.
       render: shell
+    validations:
+      required: true
   - type: textarea
     id: error-logs
     attributes:
@@ -67,7 +71,16 @@ body:
       description: |
         Insert error from the logs here for a quick overview
       render: shell
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |
         Checkout how to troubleshoot failures and collect debug logs: https://docs.microsoft.com/en-us/vsts/build-release/actions/troubleshooting
+  - type: textarea
+    id: extra-details
+    attributes:
+      label: Aditional info
+      description: |
+        Paste any additional information here
+      render: shell
