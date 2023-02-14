@@ -51,16 +51,12 @@ body:
       placeholder: Windows 11, Ubuntu 20.04...
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## Logs 
   - type: textarea
     id: question
     attributes:
       label: Question
       description: |
-        Please write your question here
+        Please write your question here 
       render: shell
     validations:
       required: true
