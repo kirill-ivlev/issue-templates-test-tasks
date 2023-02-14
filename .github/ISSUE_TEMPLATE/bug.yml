@@ -12,4 +12,9 @@ body:
     id: task-name
     attributes:
       label: Task name
-    
+  - type: input
+    id: task-version
+    attributes:
+      label: Task version
+      placeholder: x.x.x
+      
