@@ -17,10 +17,10 @@ body:
     attributes:
       label: Task version
       placeholder: x.x.x
-    - type: markdown
-      attributes:
-        value: |
-          ## Environment 
+  - type: markdown
+    attributes:
+      value: |
+        ## Environment 
   - type: checkboxes
     id: environment-type
     attributes:
