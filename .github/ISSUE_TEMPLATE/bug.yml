@@ -49,3 +49,25 @@ body:
     attributes:
       label: Operation system
       placeholder: Windows 11, Ubuntu 20.04...
+  - type: markdown
+    attributes:
+      value: |
+        ## Logs 
+  - type: textarea
+    id: task-logs
+    attributes:
+      label: Task log
+      description: |
+        Please copy and paste any relevant log output.
+      render: shell
+  - type: textarea
+    id: error-logs
+    attributes:
+      label: Relevant log output
+      description: |
+        Insert error from the logs here for a quick overview
+      render: shell
+  - type: markdown
+    attributes:
+      value: |
+        Checkout how to troubleshoot failures and collect debug logs: https://docs.microsoft.com/en-us/vsts/build-release/actions/troubleshooting
